@@ -1,7 +1,7 @@
 from flask import Flask
 from firebase_admin import credentials, initialize_app
 
-cred = credentials.Certificate("api/Key.json")
+cred = credentials.Certificate("E:/Edu/py/REST API with Flask- Heroku deployment/api/Key.json")
 default_app = initialize_app(cred)
 
 def create_app():
