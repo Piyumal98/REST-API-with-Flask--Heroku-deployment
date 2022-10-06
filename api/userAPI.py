@@ -1,5 +1,5 @@
 import uuid
-from flask import Blueprint, request, jsonify
+from flask import Blueprint, request, jsonify, Flask
 from firebase_admin import firestore
 
 db = firestore.client()
